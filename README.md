@@ -220,4 +220,4 @@ Conect-se comigo no LinkedIn
 
 ## Licenca
 
-Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE.md](https://github.com/MoisesWesley/Agenda-infusao-server/master/LICENSE) para obter detalhes.
+Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE.md](https://github.com/MoisesWesley/Agenda-infusao-server/blob/master/LICENSE) para obter detalhes.
