@@ -20,7 +20,7 @@ Conecte-se comigo no LinkedIn
 
 Além disso, você pode usar este projeto como desejar, estudar, fazer melhorias ou ganhar dinheiro com ele!
 
-## Diagrama e Casos de uso
+## Modelo entidade relacionamento
 
 O sistema contem os seguintes recursos; create, delete, index, show das seguintes entidades usuarios, enderecos, diagnosticos, contatos, infusoes e medicamentos. Onde as informacoes se relacionam da seguinte forma.
 
