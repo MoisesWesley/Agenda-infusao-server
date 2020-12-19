@@ -8,13 +8,13 @@
 - Sequelize
 - Postgres
 
-O principal objetivo da API e fornecer dados para o controle de infusoes sobre usuarios de uma empresa se dispondo das informaçoes de usuarios, diagnosticos, endereços, contatos alem das informaçoes pertinentes tempo de medicamento e agenda das infusoes 
+O principal objetivo da API e fornecer dados para o controle de infusões sobre usuários de uma empresa se dispondo das informações de usuários, diagnósticos, endereços, contatos além das informações pertinentes tempo de medicamento e agenda das infusões
 
 ## Sobre este projeto
 
-Este e um projeto para meu portifolio pessoal ficarei feliz se você puder me fornecer algum feedback sobre o projeto sobre código, estrutura ou qualquer coisa que você possa relatar que possa me crescer como desenvolvedor melhor
+Este e um projeto para meu portifólio pessoal ficarei feliz se você puder me fornecer algum feedback sobre o projeto sobre código, estrutura ou qualquer coisa que você possa relatar que possa me crescer como desenvolvedor melhor
 
-Meu email: moises.wesley.s@gmail.com
+Meu e-mail: moises.wesley.s@gmail.com
 
 Conecte-se comigo no LinkedIn
 
@@ -22,20 +22,20 @@ Além disso, você pode usar este projeto como desejar, estudar, fazer melhorias
 
 ## Modelo entidade relacionamento
 
-O sistema contem os seguintes recursos; create, delete, index, show das seguintes entidades usuarios, enderecos, diagnosticos, contatos, infusoes e medicamentos. Onde as informacoes se relacionam da seguinte forma.
+O sistema contem os seguintes recursos; create, delete, index, show das seguintes entidades usuários, endereços, diagnósticos, contatos, infusões e medicamentos. Onde as informações se relacionam da seguinte forma.
 
 ![Diagrama ER](/.github/Agenda.png)
 
 
-## Comecando
+## Começando
 
-### Pre-requisitos
+### Pré-requisitos
 
-Para executar este projeto voce vai precisar do NodeJS 8+, postgres ou imagem do postgres rodando no docker na maquina.
+Para executar este projeto você vai precisar do NodeJS 8+, postgres ou imagem do postgres rodando no Docker na máquina.
 
 ### Installing
 
-**Clonando repositorio**
+**Clonando repositório**
 
 ```
 $ git clone https://github.com/MoisesWesley/Agenda-infusao-server
@@ -43,7 +43,7 @@ $ git clone https://github.com/MoisesWesley/Agenda-infusao-server
 $ cd Agenda-infusao-server
 ```
 
-**Instalando dependencia**
+**Instalando dependência**
 
 ```
 $ yarn
@@ -82,7 +82,7 @@ $ docker exec -it docker bash
 $ psql -U postgres
 ```
 
-Criando usuario
+Criando usuário
 
 ```
 $ CREATE USER docker SUPERUSER INHERIT CREATEDB CREATEROLE;
@@ -96,7 +96,7 @@ $ ALTER USER nomedousuario PASSWORD 'docker';
 
 ### Executando ambiente de desenvolvimento
 
-Apos a instalacao de todas as dependencias junto com o postgres, para iniciar o servidor rode.
+Após a instalação de todas as dependências junto com o postgres, para iniciar o servidor rode.
 
 ```
 $ yarn dev
@@ -108,7 +108,7 @@ _ou_
 $ npm run dev
 ```
 
-### Preparando ambiente da aplicacao - sequelize
+### Preparando ambiente da aplicação  - sequelize
 
 Criando banco de dados
 
@@ -130,7 +130,7 @@ $ yarn sequelize db:migrate:undo:all
 
 ### Rota de teste 
 
-Para verificar se a API esta sendo executada corretamente.
+Para verificar se a API está sendo executada corretamente.
 
 Acesse a URL base: http://localhost:3333
 
@@ -150,7 +150,7 @@ Acesse a URL base: http://localhost:3333
 
 > http://localhost:3333/users/1
 
-### Rota Informacoes Usuarios
+### Rota Informações Usuários 
 
 > http://localhost:3333/user/infusers
 
@@ -170,7 +170,7 @@ Acesse a URL base: http://localhost:3333
 
 > http://localhost:3333/user/contact/1
 
-### Rota Infusoes
+### Rota Infusões 
 
 > http://localhost:3333/infusions
 
@@ -180,7 +180,7 @@ Acesse a URL base: http://localhost:3333
 
 > http://localhost:3333/user/infusion/1
 
-### Rota Diagnosticos
+### Rota Diagnósticos 
 
 > http://localhost:3333/diagnosis/users
 
@@ -190,7 +190,7 @@ Acesse a URL base: http://localhost:3333
 
 > http://localhost:3333/user/diagnosis/1
 
-### Rota Medicacoes
+### Rota Medicações 
 
 > http://localhost:3333/diagnosis/medications
 
@@ -200,7 +200,7 @@ Acesse a URL base: http://localhost:3333
 
 > http://localhost:3333/diagnosis/medication/1
 
-### Rota Endereco
+### Rota Endereços 
 
 > http://localhost:3333/addresses
 
@@ -212,7 +212,7 @@ Acesse a URL base: http://localhost:3333
 
 ## Contribuindo
 
-Para contribuir faca um fork e/ou abra uma issue, ficarei feliz em analisar. E se tiver qualquer duvida sobre o projeto...
+Para contribuir faca um fork e/ou abra uma issue, ficarei feliz em analisar. E se tiver qualquer dúvida sobre o projeto...
 
 Meu email: moises.wesley.s@gmail.com
 
